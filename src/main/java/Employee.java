@@ -13,6 +13,10 @@ public class Employee {
         this.userID = userID;
     }
 
+    public Employee(String name){
+        this.name = name;
+        this.userID = "";
+    }
     public String getName() {
         return name;
     }

@@ -16,6 +16,13 @@ public class ShiftWorker extends Employee{
         this.ratePay = ratePay;
     }
 
+    public ShiftWorker(String name, int payNum, int shift){
+        super(name);
+        this.shift = shift;
+        this.payNum = payNum;
+        this.ratePay = ratePay;
+    }
+
     public int getShift() {
         return shift;
     }
